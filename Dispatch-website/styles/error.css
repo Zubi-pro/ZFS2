@@ -1,0 +1,19 @@
+.not-found {
+    padding: 20px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-found-image {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.not-found-text {
+    font-size: 24px;
+    margin-top: 20px;
+}

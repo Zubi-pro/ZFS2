@@ -1,0 +1,146 @@
+/* Footer.css */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  .footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 50px 50px;
+  }
+  
+  .footer .footer-section {
+    flex: 1;
+    padding: 10px 20px;
+  }
+  
+  .footer .footer-section h2, .footer .footer-section h1 {
+    color: #ff9800;
+  }
+  
+  .footer .footer-section ul {
+    list-style-type: none;
+  }
+  
+  .footer .footer-section ul a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer .footer-section ul a:hover {
+    color: #ff9800;
+  }
+  
+  .footer .contact .fas, .footer .socials a i {
+    color: #ff9800;
+  }
+  
+  .footer .socials a {
+    margin-right: 10px;
+  }
+  
+  .footer .socials a:hover {
+    color: #fff;
+  }
+  
+  .footer .footer-bottom {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer .contact-form .text-input {
+    background-color: #555;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    color: #fff;
+  }
+  
+  .footer .contact-form .btn {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .footer .contact-form .btn:hover {
+    background-color: #ff5722;
+  }
+  
+  @media (max-width: 768px) {
+    .footer .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer .footer-section {
+      margin-bottom: 20px;
+    }
+  }
+  
+/* //////// */
+
+.developer-tooltip {
+    position: absolute;
+    top: -60px; /* Adjust the distance from the developer's name */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000000;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    display: none;
+    width: 200px;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .developer-tooltip p {
+    margin: 10px 0;
+  }
+  
+  .developer-tooltip a {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .developer-tooltip a:hover {
+    color: #FF5733; /* Change color on hover */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .developer:hover + .developer-tooltip {
+    display: block;
+  }
+  
+
+  /* for the whatsapp contact  */
+
+  .whatsapp-icon {
+    color: #25d366; /* WhatsApp color */
+  }
+  
+  .whatsapp-icon:hover {
+    color: #128c7e; /* Darker WhatsApp color on hover */
+  }
+  
